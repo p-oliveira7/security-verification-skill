@@ -1,0 +1,9 @@
+{
+  "fixture": true,
+  "tool": "Checkmarx",
+  "rule": "SYNTHETIC-TENANT-AUTH",
+  "result": "failed",
+  "flow": "GET /invoices/{id} -> get_invoice_unsafe -> amount",
+  "condition": "tenant-check-missing",
+  "note": "Relatório fabricado para testes de contrato; não é saída real de produto."
+}

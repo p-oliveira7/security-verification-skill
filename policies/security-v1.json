@@ -1,0 +1,5 @@
+{
+  "version": "security-v1",
+  "blocking_severities": ["P0", "P1"],
+  "external_max_age_hours": 168
+}
